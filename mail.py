@@ -18,6 +18,7 @@ from email.mime.text import MIMEText
 from email.utils import formatdate
 import subprocess
 from time import sleep
+import numpy as np
 
 class MainWindow(tk.Frame):
     def __init__(self, master):
